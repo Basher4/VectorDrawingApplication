@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<document name="Untitled">
+  <screen width="640" height="480" />
+  <layers count="1">
+    <layer name="Background" bgColor="FFFFFFFF" id="0" ShapesCount="1">
+      <TextShape Name="Text 0" ID="0">
+        <linePen color="FFEE2C2C" width="1" style="Solid" />
+        <points count="1">
+          <point id="0" x="248" y="154" />
+        </points>
+        <bounds x="248" y="154" width="46" height="16" />
+        <visible>true</visible>
+        <name>Text 0</name>
+        <text>Hello</text>
+        <font family="Aharoni" size="12" style="Bold, Italic, Underline" />
+      </TextShape>
+    </layer>
+  </layers>
+</document>

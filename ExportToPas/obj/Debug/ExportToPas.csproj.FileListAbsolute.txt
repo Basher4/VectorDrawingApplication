@@ -1,0 +1,8 @@
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\bin\Debug\ExportToPas.exe.config
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\obj\Debug\ExportToPas.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\obj\Debug\ExportToPas.Properties.Resources.resources
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\obj\Debug\ExportToPas.csproj.GenerateResource.Cache
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\bin\Debug\ExportToPas.exe
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\bin\Debug\ExportToPas.pdb
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\obj\Debug\ExportToPas.exe
+C:\Users\Matej\Documents\Visual Studio 2013\Projects\ExportToPas\obj\Debug\ExportToPas.pdb

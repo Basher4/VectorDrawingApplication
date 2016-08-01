@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{365916FA-8AC0-4546-897C-7903E3A8E02A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DrawingApplication</RootNamespace>
+    <AssemblyName>DrawingApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DigitalRune.Windows.Docking, Version=1.3.5.0, Culture=neutral, PublicKeyToken=83b2c390cd515404, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DigitalRune.Windows.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Color Wheel\ColorMath.cs" />
+    <Compile Include="Classes\Color Wheel\ColorWheel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Layers\LayerManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Classes\Layers\LayerManager.Designer.cs">
+      <DependentUpon>LayerManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ListExtension.cs" />
+    <Compile Include="Classes\PointMath.cs" />
+    <Compile Include="Classes\Shapes\Polygon.cs" />
+    <Compile Include="Classes\Shapes\Shape.cs" />
+    <Compile Include="Classes\ShapesProto.cs" />
+    <Compile Include="Classes\Shapes\Ellipse.cs" />
+    <Compile Include="Classes\Shapes\Text.cs" />
+    <Compile Include="Forms\ColorSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorSelector.Designer.cs">
+      <DependentUpon>ColorSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DockForms\DocumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DockForms\LayersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Layers\Layer.cs" />
+    <Compile Include="Forms\DockForms\PropertyDock\FillProps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\FillProps.Designer.cs">
+      <DependentUpon>FillProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\LineProps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\LineProps.Designer.cs">
+      <DependentUpon>LineProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\NewObjectProps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\NewObjectProps.Designer.cs">
+      <DependentUpon>NewObjectProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\ObjectProps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DockForms\PropertyDock\ObjectProps.Designer.cs">
+      <DependentUpon>ObjectProps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewLayer.Designer.cs">
+      <DependentUpon>NewLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Shapes\Line.cs" />
+    <Compile Include="Forms\ScreenControl\ScreenControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ScreenControl\ScreenControl.Designer.cs">
+      <DependentUpon>ScreenControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScreenControl\ScreenControlHandlers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ScreenControl\ScreenControlPublic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TextInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TextInputDialog.Designer.cs">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ToolStripNumberControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DockForms\ObjectTreeViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewDocument.Designer.cs">
+      <DependentUpon>NewDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Shapes\FreeHand.cs" />
+    <Compile Include="Preferences.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\DockForms\PropertyDock\PropertyDockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\PropertyManager.cs" />
+    <Compile Include="Classes\Shapes\Rectangle.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Structures.cs" />
+    <EmbeddedResource Include="Classes\Layers\LayerManager.resx">
+      <DependentUpon>LayerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColorSelector.resx">
+      <DependentUpon>ColorSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\DocumentForm.resx">
+      <DependentUpon>DocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\LayersForm.resx">
+      <DependentUpon>LayersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\ObjectTreeViewForm.resx">
+      <DependentUpon>ObjectTreeViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\PropertyDock\FillProps.resx">
+      <DependentUpon>FillProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\PropertyDock\LineProps.resx">
+      <DependentUpon>LineProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\PropertyDock\NewObjectProps.resx">
+      <DependentUpon>NewObjectProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\PropertyDock\ObjectProps.resx">
+      <DependentUpon>ObjectProps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DockForms\PropertyDock\PropertyDockForm.resx">
+      <DependentUpon>PropertyDockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewDocument.resx">
+      <DependentUpon>NewDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLayer.resx">
+      <DependentUpon>NewLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScreenControl\ScreenControl.resx">
+      <DependentUpon>ScreenControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TextInputDialog.resx">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Line.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\quad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\oval.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\AddLayerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\RmLayerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\freeHand.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ArrowUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\move_cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Maps-polygon-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\pencil-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\color_wheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TransparencyGrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\DuplicateLayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\CleanLayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\text-tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

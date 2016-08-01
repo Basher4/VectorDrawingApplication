@@ -1,0 +1,2 @@
+1. Unlimited draw area
+2. WPF Rewrite

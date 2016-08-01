@@ -1,0 +1,45 @@
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\bin\Release\DrawingApplication.exe
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\bin\Release\DrawingApplication.pdb
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\bin\Release\DigitalRune.Windows.Docking.dll
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.LayerManager.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.ColorSelector.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.Document.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.Layers.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.ObjectTreeView.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.FillProps.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.LineProps.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.NewObjectProps.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.ObjectProps.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.PropertyDock.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.NewDocument.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.NewLayer.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.ScreenControl.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.TextInputDialog.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.MainForm.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.Properties.Resources.resources
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.csproj.GenerateResource.Cache
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.exe
+c:\Users\Matej\Documents\Visual Studio 2013\Projects\DrawingApplication\obj\Release\DrawingApplication.pdb
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.exe
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.pdb
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\bin\Release\DrawingApplication.exe
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\bin\Release\DrawingApplication.pdb
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\bin\Release\DigitalRune.Windows.Docking.dll
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.csprojResolveAssemblyReference.cache
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.LayerManager.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.ColorSelector.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.Document.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.Layers.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.ObjectTreeView.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.FillProps.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.LineProps.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.NewObjectProps.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.ObjectProps.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.PropertyDock.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.NewDocument.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.NewLayer.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.ScreenControl.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.TextInputDialog.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.MainForm.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.Properties.Resources.resources
+e:\Zaloha-MSI\E-Disk\.Git\VectorDrawingApplication\DrawingApplication\obj\Release\DrawingApplication.csproj.GenerateResource.Cache
